@@ -1,0 +1,5 @@
+[Unit]
+Description=Idle service
+
+[Service]
+ExecStart=/usr/local/bin/idle.sh
