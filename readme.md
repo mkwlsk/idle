@@ -1,5 +1,5 @@
 # Systemd idle timer and service
-Systemd units and script to shutdown server when there is no active sessions.
+Systemd units and script to shutdown server when there is no active logon or [Emby Media Server](https://emby.media) sessions.
 
 # Usage
 1. Copy `idle.service` and `idle.timer` to `/etc/systemd/system/`
